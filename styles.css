@@ -1,0 +1,113 @@
+@font-face {
+   font-family: 'lato-light';
+   src: url(Lato-Light.ttf) format('truetype');
+}
+
+@font-face {
+   font-family: 'lato-regular';
+   src: url(Lato-Regular.ttf) format('truetype');
+}
+
+* {
+   font-family: 'lato-light';
+}
+
+a, p, button, span {
+  font-family: 'lato-regular';
+}
+
+nav {
+  display: inline-block;
+  background: darkgreen;
+  width: 100%;
+  height: 38px;
+}
+
+.logo {
+  float: left;
+  width: 200px;
+  height: 28px;
+  margin: 6px 20px;
+}
+
+.navbar {
+  list-style-type: none;
+  float: right;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 20px;
+}
+
+.navbar li {
+  display: inline;
+  color: white;
+  margin-left: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+.main {
+  margin: auto;
+  text-align: center;
+  width: 50%;
+}
+
+.main a {
+  color: darkgreen;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.radio {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+h1 {
+  font-size: 52px;
+  margin-top: 20px;
+}
+
+h3 {
+  font-size: 36px;
+}
+
+.quote {
+  margin-bottom: 80px;
+}
+
+.quote > h3 {
+  line-height: 1.5;
+}
+
+#attribute {
+  color: grey;
+}
+
+p {
+  font-size: 20px;
+}
+
+button {
+  margin-top: 50px;
+  font-size: 36px;
+  padding: 20px 10%;
+  background: white;
+  border: solid 1px darkgreen;
+  border-radius: 5px;
+  color: darkgreen;
+  line-height: 1.25;
+}
+
+button:hover {
+  transition-duration: .5s;
+  background: darkgreen;
+  color: white;
+}
+
+.green {
+  color: darkgreen;
+}
